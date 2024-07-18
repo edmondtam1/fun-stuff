@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "word-search-solver"
+version = "0.1.0"
+description = "Solve word search puzzles"
+authors = ["Edmond Tam <edmondtam2@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.21.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
