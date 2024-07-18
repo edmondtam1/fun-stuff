@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "word-search-solver"
+name = "fun-stuff"
 version = "0.1.0"
-description = "Solve word search puzzles"
+description = "Do fun stuff"
 authors = ["Edmond Tam <edmondtam2@gmail.com>"]
 readme = "README.md"
 
@@ -12,3 +12,6 @@ numpy = "^1.21.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+solve = "python word_search_solver.py"
